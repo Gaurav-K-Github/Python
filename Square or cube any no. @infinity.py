@@ -1,0 +1,32 @@
+print("What operation do you want to perform?")
+print("1.Square")
+print("2.Cube")
+choice=int(input("Enter your choice [1,2]:"))
+a=int(input("Till how many digit you want to print:"))
+while True:
+   if choice in ('1', '2'):
+       if choice == '1':
+          for i in range(1,a+1):# using for loop to iterate operation on a number.
+           print('Square of',i,'=',i**2)
+       
+       elif choice == '2':
+          for i in range(1,a+1):
+           print('Square of',i,'=',i**3)
+           break
+       
+       else:
+           print("Invalid")
+           
+  
+  
+      
+   
+       
+
+     
+
+
+
+
+   
+
