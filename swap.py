@@ -9,7 +9,7 @@ b.append(a[5])
 b.append(a[4])
 
 a.clear()
-a=b
+a=b#c
         
 print(a)        
     
