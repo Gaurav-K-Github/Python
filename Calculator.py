@@ -13,14 +13,14 @@ d='d'
 e='e'
 f='f'
 
-if p=='a':
+if p=='a':#add
     print(n+n1)
-elif p=='b':
+elif p=='b':#subtract
     print(n-n1)
 elif p=='c':
-    print(n*n1)
+    print(n*n1)#multiply
 elif p=='d':
-    print(n/n1)
+    print(n/n1)#divide
 elif p=='e':
     print(n//n1)
 elif p=='f':
