@@ -8,5 +8,5 @@ def generate_password(length):
     
 length = int(input("Enter the length of the password: "))
 password = generate_password(length)
-print("Generated password:", password)
+print("Generated password:", password)#final print
 
