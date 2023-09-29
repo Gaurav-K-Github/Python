@@ -1,5 +1,5 @@
 a=input('Enter to encode:')#input
-p=''
+p=''#variable
 
 for i in a:
     n=(ord(i))
