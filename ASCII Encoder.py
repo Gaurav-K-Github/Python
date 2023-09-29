@@ -1,4 +1,4 @@
-a=input('Enter to encode:')
+a=input('Enter to encode:')#input
 p=''
 
 for i in a:
