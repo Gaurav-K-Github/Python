@@ -1,18 +1,13 @@
 import random
 
-a = ['elephant','bear','cheetah','giraffe','wolf','tiger','penguin',
-          'rabbit','lion','monkey','rhinoceros','sheep','kangaroo','zebra']
-fruits = ['apple','banana','grapes','mango','lime','watermelon','jackfruit',
-          'guava','orange','papaya','pear','peach','pomegranate','strawberry']
-stationary = ['pencil','eraser','sharpener','envelope','paper','stapler','folder',
-              'marker','in kpot','calculator','glue','notebook','scissors','ruler']
-countries = ['argentina', 'brazil', 'canada', 'denmark', 'egypt', 'france', 'germany',
-             'india', 'japan', 'kenya', 'mexico', 'norway', 'portugal', 'russia']
-colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink',
-          'brown', 'black', 'white', 'gray', 'silver', 'gold', 'maroon']
+animals = ['elephant','bear','cheetah','giraffe','wolf','tiger','penguin','rabbit','lion','monkey','rhinoceros','sheep','kangaroo','zebra']
+fruits = ['apple','banana','grapes','mango','lime','watermelon','jackfruit','guava','orange','papaya','pear','peach','pomegranate','strawberry']
+stationary = ['pencil','eraser','sharpener','envelope','paper','stapler','folder','marker','in kpot','calculator','glue','notebook','scissors','ruler']
+countries = ['argentina', 'brazil', 'canada', 'denmark', 'egypt', 'france', 'germany','india', 'japan', 'kenya', 'mexico', 'norway', 'portugal', 'russia']
+colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink','brown', 'black', 'white', 'gray', 'silver', 'gold', 'maroon']
 
 while 1:
-    words = a + fruits + stationary + countries + colors
+    words = animals + fruits + stationary + countries + colors
     random_word = random.choice(words)
     print("WHAT'S THE WORD?")
     if random_word in animals:
