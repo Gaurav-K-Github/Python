@@ -44,6 +44,3 @@ while 1:
                 break
             else:
                 quit()
-
-
- 
