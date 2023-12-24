@@ -1,6 +1,6 @@
 import random
 
-animals = ['elephant','bear','cheetah','giraffe','wolf','tiger','penguin',
+a = ['elephant','bear','cheetah','giraffe','wolf','tiger','penguin',
           'rabbit','lion','monkey','rhinoceros','sheep','kangaroo','zebra']
 fruits = ['apple','banana','grapes','mango','lime','watermelon','jackfruit',
           'guava','orange','papaya','pear','peach','pomegranate','strawberry']
@@ -12,7 +12,7 @@ colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink',
           'brown', 'black', 'white', 'gray', 'silver', 'gold', 'maroon']
 
 while 1:
-    words = animals + fruits + stationary + countries + colors
+    words = a + fruits + stationary + countries + colors
     random_word = random.choice(words)
     print("WHAT'S THE WORD?")
     if random_word in animals:
