@@ -6,7 +6,7 @@ for i in range(n):#No of rows created
     if i > 1:
         for j in range(1, i):
             row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j]
-    triangle.append(row)
+    triangle.append(row)#addition of elements to triangle list
 
 for row in triangle:
     print(row)
