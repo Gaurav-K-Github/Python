@@ -1,7 +1,7 @@
-n = int(input("No of rows:"))
+n = int(input("No of rows:"))#Input
 triangle = []
 
-for i in range(n):
+for i in range(n):#No of rows created
     row = [1] * (i + 1)
     if i > 1:
         for j in range(1, i):
