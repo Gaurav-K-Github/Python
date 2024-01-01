@@ -9,4 +9,4 @@ for i in range(n):#No of rows created
     triangle.append(row)#addition of elements to triangle list
 
 for row in triangle:
-    print(row)
+    print(row)#final output of triangle by using rows
