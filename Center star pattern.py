@@ -9,12 +9,6 @@ for i in range(0, n):
  
     k = k - 1
  
-    # inner loop to handle number of columns
-    # values changing acc. to outer loop
     for j in range(0, i+1):
-     
-        # printing stars
-        print("* ", end="")
- 
-    # ending line after each row
-    print("\r")
+             print("* ", end="")
+     print("\r")
