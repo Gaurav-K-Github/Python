@@ -1,7 +1,6 @@
 import random
 
 def number_guessing_game():
-    # Generate a random number between 1 and 100
     secret_number = random.randint(1, 100)
     
     print("Welcome to the Number Guessing Game!")
@@ -10,7 +9,6 @@ def number_guessing_game():
     attempts = 0
 
     while True:
-        # Get user input
         guess = int(input("Enter your guess: "))
         
         # Increment the attempts
