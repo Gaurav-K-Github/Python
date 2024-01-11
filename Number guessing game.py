@@ -13,7 +13,6 @@ def number_guessing_game():
         
         attempts += 1
 
-        # Check if the guess is correct
         if guess == secret_number:
             print(f"Congratulations! You guessed the correct number {secret_number} in {attempts} attempts.")
             break
@@ -22,5 +21,4 @@ def number_guessing_game():
         else:
             print("Too high! Try again.")
 
-# Start the game
 number_guessing_game()
