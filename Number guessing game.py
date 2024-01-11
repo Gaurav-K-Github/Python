@@ -11,7 +11,6 @@ def number_guessing_game():
     while True:
         guess = int(input("Enter your guess: "))
         
-        # Increment the attempts
         attempts += 1
 
         # Check if the guess is correct
