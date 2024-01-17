@@ -16,4 +16,4 @@ def guess():
         else:
             print("Your guess is too high. Try again.")
 
-number_guessing_game()
+guess()
