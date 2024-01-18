@@ -1,6 +1,5 @@
 import numpy as np
 
-# Get the dimensions of the matrix from the user
 rows = int(input("Enter the number of rows: "))
 cols = int(input("Enter the number of columns: "))
 
