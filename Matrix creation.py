@@ -3,7 +3,6 @@ import numpy as np
 rows = int(input("Enter the number of rows: "))
 cols = int(input("Enter the number of columns: "))
 
-# Create an empty matrix of the specified dimensions
 matrix = np.zeros((rows, cols))
 
 # Prompt the user to enter the elements of the matrix
