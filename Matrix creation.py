@@ -5,7 +5,6 @@ cols = int(input("Enter the number of columns: "))
 
 matrix = np.zeros((rows, cols))
 
-# Prompt the user to enter the elements of the matrix
 for i in range(rows):
     for j in range(cols):
         matrix[i][j] = float(input(f"Enter the element at position ({i+1}, {j+1}): "))
