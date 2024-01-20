@@ -23,7 +23,7 @@ def countdown(total_seconds):
         label['text'] = "Time's up!"
 
 root = tk.Tk()
-root.title("Countdown Timer")
+root.title("Countdown Timer:")
 
 label = tk.Label(root,text="Enter time to start", font=('ALGERIAN',35))
 label.pack(padx=20, pady=50)
