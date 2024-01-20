@@ -7,7 +7,7 @@ def start_countdown():
         entry.pack_forget()
         start_button.pack_forget()
     except ValueError:
-        label['text'] = "Please enter a valid number of seconds!"
+        label['text'] = "Please enter a valid number of seconds"
 
 def countdown(total_seconds):
     hours = total_seconds // 3600
