@@ -20,7 +20,7 @@ def run_quiz(questions):
 # Define quiz questions, options, and correct answers
 quiz_questions = [
     ("What is the capital of France?", ["Paris", "Berlin", "London", "Madrid"], 1),
-    ("Which planet is known as the Red Planet?", ["Earth", "Mars", "Venus", "Jupiter"], 2),
+    ("Which planet is known as the Red Planet?", ["Earth", "Mars", "Venus", "Jupiter"], 2),#format=question,options,correct option
     ("What is the largest mammal in the world?", ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"], 2)
 ]
 
