@@ -15,7 +15,7 @@ def run_quiz(questions):
         else:
             print(f"Wrong! The correct answer is {correct_option}: {options[correct_option - 1]}\n")
 
-    print(f"You scored {score}/{len(questions)} points.")
+    print(f"You scored {score}/{len(questions)} points!")
 
 # Define quiz questions, options, and correct answers
 quiz_questions = [
