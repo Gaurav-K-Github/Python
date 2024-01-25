@@ -44,4 +44,5 @@ def main():
             add_contact(contacts)
         elif choice == '3':
             search_contact(contacts)
+main()            
    
