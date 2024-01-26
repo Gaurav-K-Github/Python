@@ -5,3 +5,6 @@ url = "https://ncrtc.in/"
 response = requests.get(url)
 soup = BeautifulSoup(response.content, "html.parser")
 print(soup.prettify())
+
+#!!!!warning!!!!
+#still in developmental stage
