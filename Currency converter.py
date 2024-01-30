@@ -1,6 +1,4 @@
-c = int(input("Conversion rate:"))
-amount = 100
-from_currency = 'USD'
-to_currency = 'INR'
-converted_amount = (amount, from_currency, to_currency)
-print(f"{amount} {from_currency} = {converted_amount} {to_currency}")
+#c = int(input("Conversion rate:"))
+amount = int(input())
+converted_amount = (amount*83)
+print(f"{amount} USD= {converted_amount} INR")
