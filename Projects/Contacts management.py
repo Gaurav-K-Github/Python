@@ -1,4 +1,4 @@
-def display_menu():
+def display_menu():#outlay
     print("Contact Book Menu:")
     print("1. Display Contacts")
     print("2. Add Contact")
