@@ -16,7 +16,7 @@ def determine_winner(user_choice, computer_choice):
     print(f"Computer chose {computer_choice}.")
 
     if user_choice == computer_choice:
-        return "It's a tie!"
+        return "It's a tie! "
     elif (
         (user_choice == "Rock" and computer_choice == "Scissors") or
         (user_choice == "Paper" and computer_choice == "Rock") or
