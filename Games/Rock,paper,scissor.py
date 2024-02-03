@@ -22,9 +22,9 @@ def determine_winner(user_choice, computer_choice):
         (user_choice == "Paper" and computer_choice == "Rock") or
         (user_choice == "Scissors" and computer_choice == "Paper")
     ):
-        return "You win!"
+        return "You win!!"
     else:
-        return "Computer wins!"
+        return "Computer wins!! "
 
 if __name__ == "__main__":
     print("Welcome to Rock, Paper, Scissors!")
