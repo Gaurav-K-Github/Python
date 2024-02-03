@@ -6,6 +6,7 @@ def get_user_choice():
         print("Invalid choice. Please enter Rock, Paper, or Scissors.")
         user_choice = input("Enter Rock, Paper, or Scissors: ").capitalize()
     return user_choice
+    
 
 def get_computer_choice():
     return random.choice(["Rock", "Paper", "Scissors"])
