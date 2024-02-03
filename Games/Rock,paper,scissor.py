@@ -4,7 +4,7 @@ def get_user_choice():
     user_choice = input("Enter Rock, Paper, or Scissors: ").capitalize()
     while user_choice not in ["Rock", "Paper", "Scissors"]:
         print("Invalid choice. Please enter Rock, Paper, or Scissors.")
-        user_choice = input("Enter Rock, Paper, or Scissors: ").capitalize()
+        user_choice = input("Enter Rock, Paper, or Scissors:").capitalize()
     return user_choice
     
 
