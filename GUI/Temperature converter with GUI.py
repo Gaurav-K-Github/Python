@@ -43,5 +43,5 @@ convert_button.pack(pady=10)
 result_label = tk.Label(window, text="Result:")
 result_label.pack()
 
-# Run the application
+# Run the application created
 window.mainloop()
