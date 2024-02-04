@@ -38,7 +38,7 @@ fahrenheit_radio = tk.Radiobutton(window, text="Fahrenheit", variable=radio_var,
 fahrenheit_radio.pack()
 
 convert_button = tk.Button(window, text="Convert", command=convert_temperature)
-convert_button.pack(pady=10)
+convert_button.pack(pady=10)#Button for conversion
 
 result_label = tk.Label(window, text="Result:")
 result_label.pack()
