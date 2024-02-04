@@ -2,7 +2,6 @@ import tkinter as tk
 
 def convert_temperature():
     try:
-        # Get the user input
         temperature = float(entry.get())
 
         # Convert Celsius to Fahrenheit
