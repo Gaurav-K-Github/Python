@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import *#GUI module
 import calendar
 
 def showCal():
