@@ -14,7 +14,7 @@ def showCal():
 
     new_gui.mainloop()
 
-if __name__ == "__main__":
+if __name__ == "__main__":#Main designs
     gui = Tk()
     gui.config(background="white")
     gui.title("CALENDAR")
