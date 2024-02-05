@@ -1,5 +1,5 @@
 from tkinter import *#GUI module
-import calendar
+import calendar#Calander module
 
 def showCal():
     new_gui = Tk()
