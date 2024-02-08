@@ -5,7 +5,6 @@ def display_menu():#outlay
     print("3. Search Contact")
     print("4. Quit")
 
-
 def display_contacts(contacts):#find and display
     print("\nContacts:")
     if not contacts:
