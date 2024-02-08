@@ -13,7 +13,6 @@ def display_contacts(contacts):#find and display
         for name, (phone, email) in contacts.items():
             print(f"{name}: {phone}, {email}")
             
-
 def add_contact(contacts):#new contact and update
     name = input("Enter name: ")
     phone = input("Enter phone number: ")
