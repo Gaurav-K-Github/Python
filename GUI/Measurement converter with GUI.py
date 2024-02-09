@@ -38,3 +38,15 @@ window.title("Measurement Converter")
 entry = tk.Entry(window)
 entry.pack(pady=10)
 
+# Create buttons for different conversions
+button_funcs = [inches_to_centimeters, centimeters_to_inches, 
+                pounds_to_kilograms, kilograms_to_pounds, 
+                fahrenheit_to_celsius, celsius_to_fahrenheit]
+button_texts = ["Inches to Centimeters", "Centimeters to Inches", 
+                "Pounds to Kilograms", "Kilograms to Pounds", 
+                "Fahrenheit to Celsius", "Celsius to Fahrenheit"]
+
+for func, text in zip(button_funcs, button_texts):
+    btn = tk.Button(window, text=text, command=func)
+    btn.pack()
+
