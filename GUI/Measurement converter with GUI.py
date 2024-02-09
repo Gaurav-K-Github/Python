@@ -50,3 +50,8 @@ for func, text in zip(button_funcs, button_texts):
     btn = tk.Button(window, text=text, command=func)
     btn.pack()
 
+# Create label for displaying result
+result_label = tk.Label(window, text="")
+result_label.pack(pady=10)
+
+window.mainloop()
