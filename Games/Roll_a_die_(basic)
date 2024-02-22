@@ -1,0 +1,10 @@
+import random
+c = 1
+while c==1:
+    print('')
+    print("Die rolled:",random.randint(1,6))
+    print('')
+    q='n'
+    q=input('To stop rolling die enter (n) or press enter key to continue')
+    if q=='n':
+        c-=1
