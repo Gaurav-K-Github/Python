@@ -24,3 +24,29 @@ class StudentPerformanceSystem:
         
         self.students = {}
 
+    def add_student(self):
+        name = self.entry_name.get()
+        grade = self.entry_grade.get()
+        
+        if name and grade:
+            self.students[name] = grade
+            messagebox.showinfo("Success", "Student added successfully!")
+            self.entry_name.delete(0, tk.END)
+            self.entry_grade.delete(0, tk.END)
+        else:
+            messagebox.showerror("Error", "Please enter both name and grade.")
+
+    def show_performance(self):
+        if self.students:
+            performance = "\n".join([f"{name}: {grade}" for name, grade in self.students.items()])
+            messagebox.showinfo("Performance", performance)
+        else:
+            messagebox.showinfo("Performance", "No students added yet.")
+
+def main():
+    root = tk.Tk()
+    app = StudentPerformanceSystem(root)
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
