@@ -27,4 +27,3 @@ elif p=='f':
     print(n%n1)
 else:
     print('Error')
-    
