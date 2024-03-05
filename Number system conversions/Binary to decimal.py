@@ -1,17 +1,11 @@
-#Binary to decimal code
-n=int(input("Enter a binary digit to convert into decimal form:"))
+binary=input("Enter binary number: ")
 
-n1=len(str(n))
-print(n1)
+decimal=0
+power =len(binary) - 1
 
-d=0
+for digit in binary:
+    if digit == '1':
+        decimal_number += 2 ** power
+    power -= 1
 
-r=(n1*-1)
-print(r)
-
-for i in range(-1,(r)):
-    print(i)
-    for j in (n):
-        print(j)
-
-        
+print("Decimal equivalent:", decimal_number)
