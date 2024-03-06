@@ -1,3 +1,5 @@
+#PROJECT UNDER DEVELOPMENTAL STAGE
+
 class VotingSystem:
     def __init__(self):
         self.users = {}
