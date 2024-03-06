@@ -9,3 +9,4 @@ class VotingSystem:
             print("User already exists. Please choose another username.")
             return False
         self.users[username] = password
+        return True
