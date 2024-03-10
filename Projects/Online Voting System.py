@@ -18,3 +18,6 @@ class VotingSystem:
             return True
         else:
             return False
+            
+    def add_candidate(self, candidate):
+        self.candidates[candidate] = 0
