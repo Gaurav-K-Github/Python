@@ -21,3 +21,4 @@ class VotingSystem:
             
     def add_candidate(self, candidate):
         self.candidates[candidate] = 0
+
