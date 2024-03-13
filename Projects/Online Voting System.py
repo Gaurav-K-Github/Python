@@ -29,6 +29,7 @@ class VotingSystem:
         else:
             print("Invalid candidate.")
             return False
+            
     def display_candidates(self):
         print("Candidates:")
         for candidate in self.candidates:
