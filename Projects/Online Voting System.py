@@ -21,3 +21,11 @@ class VotingSystem:
             
     def add_candidate(self, candidate):
         self.candidates[candidate] = 0
+    def vote(self, candidate):
+        if candidate in self.candidates:
+            self.candidates[candidate] += 1
+            return True
+        else:
+            print("Invalid candidate.")
+            return False
+
