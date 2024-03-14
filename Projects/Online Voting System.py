@@ -34,3 +34,11 @@ class VotingSystem:
         print("Candidates:")
         for candidate in self.candidates:
             print(candidate)
+
+    def display_candidates(self):
+        print("Candidates:")
+        for candidate in self.candidates:
+            print(candidate)
+
+
+             
