@@ -59,4 +59,7 @@ def main():
 
         choice = input("Enter your choice: ")
 
-
+        if choice == '1':
+            username = input("Enter username: ")
+            password = input("Enter password: ")
+            if voting_system.register_user(username, password):
