@@ -45,5 +45,18 @@ class VotingSystem:
         for candidate, votes in self.candidates.items():
             print(f"{candidate}: {votes} votes")
 
+def main():
+    voting_system = VotingSystem()
 
-             
+    while True:
+        print("\n1. Register")
+        print("2. Login")
+        print("3. Add Candidate")
+        print("4. Vote")
+        print("5. Display Candidates")
+        print("6. Display Results")
+        print("7. Exit")
+
+        choice = input("Enter your choice: ")
+
+
