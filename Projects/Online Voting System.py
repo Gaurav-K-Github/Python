@@ -40,5 +40,10 @@ class VotingSystem:
         for candidate in self.candidates:
             print(candidate)
 
+    def display_results(self):
+        print("Voting Results:")
+        for candidate, votes in self.candidates.items():
+            print(f"{candidate}: {votes} votes")
+
 
              
