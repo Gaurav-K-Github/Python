@@ -16,7 +16,6 @@ codes= { '.-':'A', '-...':'B',n
 
 f=''
 
-
 while True:
     e=input("Enter morse code for decryption:")
     if e in codes:
