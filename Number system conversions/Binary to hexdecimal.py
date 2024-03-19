@@ -7,8 +7,3 @@ def binary_to_hex(binary):
 binary_number = input("Enter a binary number: ")
 hexadecimal_number = binary_to_hex(binary_number)
 print("Hexadecimal: " + hexadecimal_number.upper())
-
-
-        
-  
-        
