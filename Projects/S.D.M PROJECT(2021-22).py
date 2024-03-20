@@ -14,6 +14,7 @@ def home(choice):
     print('')
     choice=int(input(':'))
     
+    
     if choice==1: #Adding feature
         print('\n'*20)
         print("Enter student's details:")
