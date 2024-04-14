@@ -30,7 +30,6 @@ label.pack(padx=20, pady=50)
 
 entry = tk.Entry(root, font=('Helvetica',20))
 entry.pack(padx=20, pady=10)
-
 start_button = tk.Button(root, text="Start Countdown", command=start_countdown)
 start_button.pack(padx=20, pady=10)
 
