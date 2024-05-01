@@ -5,7 +5,6 @@ print("a:+,",'b:-,','c:*,','d:/,','e://,','f:%,')
 print('')
 print('Enter any one option of the above')
 p=input("(a/b/c/d/e/f):")
-
 a='a'
 b='b'
 c='c'
