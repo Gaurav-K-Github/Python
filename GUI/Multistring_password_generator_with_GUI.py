@@ -3,7 +3,7 @@ import string
 import tkinter as tk
 from tkinter import messagebox
 
-# Function to generate a passwor
+# Function to generate a password
 def generate_password(length):
     characters = string.ascii_letters + string.digits + string.punctuation
     password = ''.join(random.choice(characters) for _ in range(length))
