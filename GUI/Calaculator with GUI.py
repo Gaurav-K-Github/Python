@@ -1,5 +1,6 @@
 import random
 c = 1
+
 while c==1:
     print('')
     print("Die rolled:",random.randint(1,6))
