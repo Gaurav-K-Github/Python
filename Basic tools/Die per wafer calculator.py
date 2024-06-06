@@ -1,5 +1,4 @@
 import math
-
 c_input = input("Choose conversion (mm/inch) for input: ")
 
 if c_input == 'mm':
