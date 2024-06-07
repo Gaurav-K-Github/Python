@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
+
 def calculate_grade():
     try:
         sub = float(grade_entry.get())
