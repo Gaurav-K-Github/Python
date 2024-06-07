@@ -1,6 +1,6 @@
 import math
 
-c_input = input("Choose conversion (mm/inch) for input: ")
+c_input = input("Choose conversion (mm/inch) for input:")
 if c_input == 'mm':
     print()
     d = float(input("Enter the diameter of the wafer: "))
