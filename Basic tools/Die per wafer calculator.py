@@ -3,7 +3,7 @@ import math
 c_input = input("Choose conversion (mm/inch) for input:")
 if c_input == 'mm':
     print()
-    d = float(input("Enter the diameter of the wafer: "))
+    d = float(input("Enter the diameter of the wafer:"))
     s = float(input("Enter the die size: "))
     result = d * math.pi * ((d / 4 * s) - (1 / math.sqrt(2 * s)))
     print(round(result, 4))
