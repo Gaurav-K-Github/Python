@@ -1,0 +1,10 @@
+import tkinter as tk
+root = tk.Tk()
+root.title("Radio Button Example")
+root.geometry("300x200")
+radio_var = tk.StringVar()
+radiobutton1 = tk.Radiobutton(root, text="Option 1", variable=radio_var, value="1")
+radiobutton2 = tk.Radiobutton(root, text="Option 2", variable=radio_var, value="2")
+radiobutton1.pack()
+radiobutton2.pack()
+root.mainloop()
