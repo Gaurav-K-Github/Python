@@ -1,0 +1,11 @@
+import tkinter as tk
+root = tk.Tk()
+root.title("Container Widgets Example")
+root.geometry("400x300")
+label_frame = tk.LabelFrame(root, text="This is a LabelFrame")
+label_frame.pack(padx=10, pady=10, fill="both", expand=True)
+label = tk.Label(frame, text="Inside Frame")
+label.pack()
+label_in_label_frame = tk.Label(label_frame, text="Inside LabelFrame")
+label_in_label_frame.pack()
+root.mainloop()
