@@ -45,4 +45,3 @@ def main():
         elif choice == '3':
             search_contact(contacts)
 main()            
-   
