@@ -14,4 +14,4 @@ label2 = tk.Label(left_frame, text="Left Frame")
 label2.pack(pady=20)
 label3 = tk.Label(right_frame, text="Right Frame")
 label3.pack(pady=20)
-root.mainloop(
+root.mainloop()
